@@ -1,0 +1,74 @@
+.navbar {
+  background: linear-gradient(90deg, #bbdbe2 0%, white 100%, #00d4ff 100%); }
+
+.body-index {
+  background-image: url(./multimedia/bestrans-transparencia.jpg);
+  padding: 5px;
+  margin: auto; }
+
+.menu-index {
+  font-size: small;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px; }
+  .menu-index h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.bg-dark {
+  background: linear-gradient(90deg, #bbdbe2 0%, white 100%, #00d4ff 100%);
+  margin: auto;
+  padding: 5px; }
+
+.clientes-main {
+  font-size: small;
+  padding: 10px;
+  margin: auto; }
+  .clientes-main .container {
+    text-align: center;
+    padding: 5px; }
+    .clientes-main .container .imagenes {
+      margin: auto;
+      padding: 3px;
+      text-align: center; }
+
+.coti-main {
+  margin: auto;
+  padding: 20px;
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 700; }
+
+.nosotros-main {
+  margin: auto;
+  padding: 5px; }
+  .nosotros-main p {
+    font-size: small;
+    padding: 10px;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.faq-main {
+  margin: auto;
+  padding: 5px; }
+  .faq-main h5 {
+    font-size: medium; }
+  .faq-main p {
+    font-size: small; }
+
+@media screen and (min-width: 768px) {
+  .menu-index {
+    font-size: large; } }
+
+.clientes-main {
+  font-size: medium; }
+
+.nosotros-main p {
+  font-size: medium; }
+
+.faq-main h5 {
+  font-size: large; }
+
+.faq-main p {
+  font-size: medium; }
+
+.bg-dark .pt-2 {
+  font-size: small; }
