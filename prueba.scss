@@ -62,6 +62,24 @@
     p { font-size: small;}
 }
 
+$redes: (
+	twitter: #51aff8,
+	facebook: #2956a3,
+	linkedin: #0076b8,
+	Instagram: #d33ccb
+);  
+@each $red, $color in $redes {
+    .container--#{$red} {
+        background: $color;
+        .mb-0 {
+            background: white;
+            .fab {
+                color: $color;
+            }
+        }
+    }
+}
+
 @media screen and (min-width:768px) {
     .menu-index {
         font-size: large;
