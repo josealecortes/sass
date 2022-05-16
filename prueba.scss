@@ -64,7 +64,9 @@
     padding: 5px;
 
     h5 {font-size: medium;}
-    p { font-size: small;}
+    p { 
+        @extend .p;
+        font-size: small;}
 }
 
 $redes: (
