@@ -2,8 +2,13 @@
     background: linear-gradient(90deg, rgba(187,219,226,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
 
 }
-.body-index {
+@mixin transparencia {
+    display: flex;
+    background: white;
     background-image: url(./multimedia/bestrans-transparencia.jpg);
+}
+.body-index {
+    @include transparencia; 
     padding: 5px;
     margin: auto;
 }
